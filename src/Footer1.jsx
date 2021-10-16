@@ -63,7 +63,7 @@ const Footer1 = () => {
                 <div>
                     <div style={footerLabel}> Follow US </div>
                     <div>
-                        <a style={icons.facebook} href="https://web.facebook.com/superior.kasur.3" class="fa fa-facebook"></a>
+                        <a style={icons.facebook} href="#" class="fa fa-facebook"></a>
                         <a style={icons.twiter} href="#" class="fa fa-twitter"></a>
                         <a style={icons.whatsapp} href="#" class="fa fa-whatsapp"></a>
                     </div>
