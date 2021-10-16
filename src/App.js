@@ -4,9 +4,6 @@ import { Route } from 'react-router-dom';
 import Body from './Body';
 import Team from './Team';
 import NavBar from './NavBar';
-import Footer1 from './Footer1';
-import FooterSection from './FooterSection';
-
 
 function App() {
   return (
@@ -16,8 +13,6 @@ function App() {
        <Route exact path="/" component={Body} />
        <Route  path="/Team" component={Team} />
      </Switch>
-      <Footer1 />
-      <FooterSection />
     </>
   );
 }
