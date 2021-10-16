@@ -62,10 +62,11 @@ const Footer1 = () => {
 
                 <div>
                     <div style={footerLabel}> Follow US </div>
-                    <div>
-                        <a style={icons.facebook} href="https://web.facebook.com/superior.kasur.3" target="_blank" class="fa fa-facebook"></a>
-                        <a style={icons.whatsapp} href="#" class="fa fa-google"></a>
-                        <a style={icons.twiter} href="#" class="fa fa-twitter"></a>
+                    <div className="media-icons">
+                        <a href="https://web.facebook.com/superior.kasur.3"><i className="fab fa-facebook-f" /></a>
+                        <a href="#"><i className="fab fa-twitter" /></a>
+                        <a href="#"><i className="fab fa-instagram" /></a>
+                        <a href="#"><i className="fab fa-youtube" /></a>
                     </div>
                 </div>
                 <div>
