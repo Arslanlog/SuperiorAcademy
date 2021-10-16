@@ -3,7 +3,7 @@ const FooterSection = () => {
     return (
         <>
       <div id="footer">
-        © 2014 yourdomain.com | All Rights Reserved |  <a href="" style={{color: '#fff'}} target="_blank">AH SOft</a>
+        © 2019 hammadmansha100@gmail.com | All Rights Reserved |  <a href="" style={{color: '#fff'}} target="_blank"> Designed By AH SOft</a>
       </div>
       {/* FOOTER SECTION END*/}
         </>
