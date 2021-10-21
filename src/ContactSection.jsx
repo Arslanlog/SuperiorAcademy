@@ -9,7 +9,7 @@ const ContactSection = () => {
     function SubmitData(e) {
         const [Name, Email, Message] = user;
         e.preventDefault();
-        axios.post("http://localhost:8080", () => {
+        axios.post("http://localhost:8080",{
             name: Name,
                 email: Email,
                     message: Message
