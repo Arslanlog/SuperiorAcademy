@@ -6,10 +6,10 @@ const ContactSection = () => {
         Email: "",
         Message: ""
     })
-    function SubmitData(e) {
-        const [Name, Email, Message] = user;
+  async  function SubmitData(e) {
+        const {Name, Email, Message} = user;
         e.preventDefault();
-        axios.post("http://localhost:8080",{
+       await axios.post("http://localhost:8080/Data",{
             name: Name,
                 email: Email,
                     message: Message
