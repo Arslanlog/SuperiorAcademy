@@ -50,6 +50,7 @@ console.log("run");
     }
     catch(err)
     {
+        res.json(@"error")
         console.log(err)
     }
 
