@@ -9,10 +9,12 @@ const ContactSection = () => {
   async  function SubmitData(e) {
         const {Name, Email, Message} = user;
         e.preventDefault();
-       await axios.post("http://localhost:8080/Data",{
+       await axios.post("http://localhost:8000/Data",{
             name: Name,
                 email: Email,
                     message: Message
+        }).then((res)=>{
+            console.log(res.data);
         })
 
 
